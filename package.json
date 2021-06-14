@@ -11,9 +11,12 @@
     "web": "react-scripts start"
   },
   "dependencies": {
+    "@apollo/react-hooks": "^4.0.0",
     "@react-native-masked-view/masked-view": "^0.2.4",
     "@react-navigation/native": "^6.0.0-next.13",
     "@react-navigation/stack": "^6.0.0-next.25",
+    "apollo-client": "^2.6.10",
+    "graphql": "^15.5.0",
     "react": "17.0.1",
     "react-dom": "^17.0.2",
     "react-native": "0.64.2",
