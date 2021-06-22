@@ -12,8 +12,8 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		40BE52728A2A5FF71E0A78E7 /* libPods-reactnativeApollographql.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C5D96DDAC139C65ADC0025B0 /* libPods-reactnativeApollographql.a */; };
-		7036BF1CDE9BE6E0ADD8FF23 /* libPods-reactnativeApollographql-reactnativeApollographqlTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A6F22EF0BFECE9CA36FC58E /* libPods-reactnativeApollographql-reactnativeApollographqlTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		ADC1A3FC26818E9F0058C943 /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = ADC1A3FB26818E9F0058C943 /* Config.xcconfig */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +30,6 @@
 		00E356EE1AD99517003FC87E /* reactnativeApollographqlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = reactnativeApollographqlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* reactnativeApollographqlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = reactnativeApollographqlTests.m; sourceTree = "<group>"; };
-		0A6F22EF0BFECE9CA36FC58E /* libPods-reactnativeApollographql-reactnativeApollographqlTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reactnativeApollographql-reactnativeApollographqlTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07F961A680F5B00A75B9A /* reactnativeApollographql.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = reactnativeApollographql.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = reactnativeApollographql/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = reactnativeApollographql/AppDelegate.m; sourceTree = "<group>"; };
@@ -38,12 +37,11 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = reactnativeApollographql/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = reactnativeApollographql/main.m; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = reactnativeApollographql/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B2EA960AA04A4FA9E2689DB4 /* Pods-reactnativeApollographql-reactnativeApollographqlTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactnativeApollographql-reactnativeApollographqlTests.release.xcconfig"; path = "Target Support Files/Pods-reactnativeApollographql-reactnativeApollographqlTests/Pods-reactnativeApollographql-reactnativeApollographqlTests.release.xcconfig"; sourceTree = "<group>"; };
+		ADC1A3FB26818E9F0058C943 /* Config.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		B30988302E21D7568438D377 /* Pods-reactnativeApollographql.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactnativeApollographql.release.xcconfig"; path = "Target Support Files/Pods-reactnativeApollographql/Pods-reactnativeApollographql.release.xcconfig"; sourceTree = "<group>"; };
 		C5D96DDAC139C65ADC0025B0 /* libPods-reactnativeApollographql.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reactnativeApollographql.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D10EEF65FC6744C5671A452B /* Pods-reactnativeApollographql.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactnativeApollographql.debug.xcconfig"; path = "Target Support Files/Pods-reactnativeApollographql/Pods-reactnativeApollographql.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		F0FDC43672479C2657A9469D /* Pods-reactnativeApollographql-reactnativeApollographqlTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactnativeApollographql-reactnativeApollographqlTests.debug.xcconfig"; path = "Target Support Files/Pods-reactnativeApollographql-reactnativeApollographqlTests/Pods-reactnativeApollographql-reactnativeApollographqlTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +49,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7036BF1CDE9BE6E0ADD8FF23 /* libPods-reactnativeApollographql-reactnativeApollographqlTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,7 +98,6 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				C5D96DDAC139C65ADC0025B0 /* libPods-reactnativeApollographql.a */,
-				0A6F22EF0BFECE9CA36FC58E /* libPods-reactnativeApollographql-reactnativeApollographqlTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -116,6 +112,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				ADC1A3FB26818E9F0058C943 /* Config.xcconfig */,
 				13B07FAE1A68108700A75B9A /* reactnativeApollographql */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* reactnativeApollographqlTests */,
@@ -142,10 +139,7 @@
 			children = (
 				D10EEF65FC6744C5671A452B /* Pods-reactnativeApollographql.debug.xcconfig */,
 				B30988302E21D7568438D377 /* Pods-reactnativeApollographql.release.xcconfig */,
-				F0FDC43672479C2657A9469D /* Pods-reactnativeApollographql-reactnativeApollographqlTests.debug.xcconfig */,
-				B2EA960AA04A4FA9E2689DB4 /* Pods-reactnativeApollographql-reactnativeApollographqlTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -156,12 +150,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "reactnativeApollographqlTests" */;
 			buildPhases = (
-				2FB6368B9C5E3D9E4056D1F6 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				5AD17795E53D3B44690BA20C /* [CP] Embed Pods Frameworks */,
-				B2FA6EBC7B7DD494168F2710 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -243,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADC1A3FC26818E9F0058C943 /* Config.xcconfig in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);
@@ -282,28 +274,6 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-reactnativeApollographql/Pods-reactnativeApollographql-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		2FB6368B9C5E3D9E4056D1F6 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-reactnativeApollographql-reactnativeApollographqlTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		55C9AD97B562C5588ECB0989 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -324,40 +294,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5AD17795E53D3B44690BA20C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-reactnativeApollographql-reactnativeApollographqlTests/Pods-reactnativeApollographql-reactnativeApollographqlTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-reactnativeApollographql-reactnativeApollographqlTests/Pods-reactnativeApollographql-reactnativeApollographqlTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-reactnativeApollographql-reactnativeApollographqlTests/Pods-reactnativeApollographql-reactnativeApollographqlTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B2FA6EBC7B7DD494168F2710 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-reactnativeApollographql-reactnativeApollographqlTests/Pods-reactnativeApollographql-reactnativeApollographqlTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-reactnativeApollographql-reactnativeApollographqlTests/Pods-reactnativeApollographql-reactnativeApollographqlTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-reactnativeApollographql-reactnativeApollographqlTests/Pods-reactnativeApollographql-reactnativeApollographqlTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F40049BE3902F7E0B017FC54 /* [CP] Embed Pods Frameworks */ = {
@@ -429,7 +365,6 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F0FDC43672479C2657A9469D /* Pods-reactnativeApollographql-reactnativeApollographqlTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -456,7 +391,6 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B2EA960AA04A4FA9E2689DB4 /* Pods-reactnativeApollographql-reactnativeApollographqlTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -487,6 +421,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = reactnativeApollographql/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -500,6 +435,7 @@
 				PRODUCT_NAME = reactnativeApollographql;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -512,6 +448,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = reactnativeApollographql/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -524,12 +461,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = reactnativeApollographql;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
 		83CBBA201A601CBA00E9B192 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADC1A3FB26818E9F0058C943 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
@@ -595,6 +534,7 @@
 		};
 		83CBBA211A601CBA00E9B192 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADC1A3FB26818E9F0058C943 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;

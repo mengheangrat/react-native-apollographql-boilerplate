@@ -12,11 +12,11 @@ target 'reactnativeApollographql' do
     :hermes_enabled => false
   )
 
-  target 'reactnativeApollographqlTests' do
-    inherit! :complete
-    # Pods for testing
-  end
+  pod 'react-native-config', :path => '../node_modules/react-native-config'
 
+   # For extensions without React dependencies
+  pod 'react-native-config/Extension', :path => '../node_modules/react-native-config'
+   
   # Enables Flipper.
   #
   # Note that if you have use_frameworks! enabled, Flipper will not work and
