@@ -2,6 +2,15 @@ apply plugin: "com.android.application"
 
 import com.android.build.OutputFile
 
+project.ext.envConfigFiles = [
+        debug: ".env.staging",
+        release: ".env.production",
+        anothercustombuild: ".env",
+]
+
+apply from: project(':react-native-config').projectDir.getPath() + "/dotenv.gradle"
+
+
 /**
  * The react.gradle file registers a task for each build variant (e.g. bundleDebugJsAndAssets
  * and bundleReleaseJsAndAssets).
@@ -136,6 +145,8 @@ android {
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
         versionName "1.0"
+        resValue "string", "build_config_package", "com.reactnativeapollographql"
+
     }
     splits {
         abi {
